@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+    font-size: 17px;
+}
+
+p {
+    color: #0000FF;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+}
+
+h1 {
+    font-family: 'Dela Gothic One', cursive;
+}
