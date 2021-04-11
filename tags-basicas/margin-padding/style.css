@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+}
+
+.exemplo {
+    border: 2px solid #00FF00;
+    /*padding: 10px;
+    padding-left: 10px;
+    padding-top: 50px;*/
+    padding: 11px 21px 12px 22px;
+    margin: 10px;
+}
