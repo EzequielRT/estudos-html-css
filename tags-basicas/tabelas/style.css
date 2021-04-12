@@ -17,3 +17,32 @@ p {
 h1 {
     font-family: 'Dela Gothic One', cursive;
 }
+
+table {
+    width: 400px;
+}
+
+table thead {
+    background-color: #CCC;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody tr:hover {
+    background-color: #EEE;
+}
+
+tbody td {
+    border-bottom: 1px solid #CCC;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #EEE;
+}
+
+th {
+    font-weight: normal;
+}
