@@ -7,42 +7,16 @@ body {
     font-size: 17px;
 }
 
-p {
-    color: #0000FF;
-    font-size: 30px;
-    font-family: 'Josefin Sans', sans-serif;
-    text-align: justify;
-}
-
 h1 {
     font-family: 'Dela Gothic One', cursive;
 }
 
-table {
-    width: 400px;
+label {
+    display: block;
+    margin-bottom: 20px;
 }
 
-table thead {
-    background-color: #CCC;
-}
-
-th, td {
+input[type="text"] {
     padding: 10px;
-    text-align: left;
-}
-
-tbody tr:hover {
-    background-color: #EEE;
-}
-
-tbody td {
-    border-bottom: 1px solid #CCC;
-}
-
-tbody tr:nth-child(even) {
-    background-color: #EEE;
-}
-
-th {
-    font-weight: normal;
+    width: 500px;
 }
