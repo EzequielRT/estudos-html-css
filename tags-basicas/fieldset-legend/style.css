@@ -7,11 +7,15 @@ body {
     font-size: 17px;
 }
 
+input {
+    margin-bottom: 8px;
+}
+
 fieldset {
     background-color: #EEE;
     margin-bottom: 20px;
     border: 2px solid #FF0000;
-    
+
 }
 
 legend {
