@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <form method="GET" action="exemplo.php">
+    <form method="POST" action="exemplo.php" enctype="multipart/form-data">
         <input type="text" name="country" value="BR" hidden />
 
         <fieldset>
@@ -32,6 +32,10 @@
             <label>
                 Data de Nascimento:<br>
                 <input type="date" name="birthdate" max="2021-04-13" />
+            </label><br>
+            <label>
+                Foto:<br>
+                <input type="file" name="photo" accept="application/pdf" />
             </label><br>
         </fieldset>
         
