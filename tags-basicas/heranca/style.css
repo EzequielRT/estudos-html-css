@@ -1,6 +1,7 @@
 * {
     margin: 0;
     color: pink;
+    color: #FF0000;
 }
 
 .container {
@@ -13,4 +14,8 @@
 .container strong {
     color: #0000FF;
     font-size: 25px;
+}
+
+div {
+    color: #0000FF
 }
