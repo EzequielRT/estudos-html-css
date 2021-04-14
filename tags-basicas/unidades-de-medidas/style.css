@@ -1,13 +1,8 @@
 body {
-    font-family: Courier;
+    margin: 0px;
 }
+
 .box {
-    width: 50ex;
-    background-color: #999
-}
-.box-interno {
-    width: 50%;
-    color: #FFF;
-    width: 7ch;
-    background-color: #333;    
+    background-color: #999;
+    height: 50vw;
 }
