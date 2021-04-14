@@ -1,8 +1,15 @@
 body {
     margin: 0px;
 }
-
 .box {
-    background-color: #999;
-    height: 50vw;
+    font-size: 15px;
+    color: blue;
+}
+h1 {
+    font-size: 30px;
+    color: red;
+}
+.box h1 {
+    font-size: inherit;
+    color: inherit;
 }
