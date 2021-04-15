@@ -2,10 +2,12 @@
     --bg-color: #000;
     --bg-second: #444;
     --font-color: #FFF;
+    --font-size: 25px;
 }
 
 body {
     background-color: var(--bg-color);
+    font-size: var(--font-size);
 }
 h1 {
     color: var(--font-color, #0000FF);
@@ -13,4 +15,10 @@ h1 {
 .container {
     background-color: var(--bg-second);
     color: var(--font-color);
+}
+
+@media (max-width: 550px) {
+    :root {
+        --font-size: 15px;
+    }
 }
