@@ -1,17 +1,16 @@
-@media (aspect-ratio: 1/1) {
-    body {
-        background-color: #FF0000;
-    }
+:root {
+    --bg-color: #000;
+    --bg-second: #444;
+    --font-color: #FFF;
 }
 
-@media (min-aspect-ratio: 2/1) {
-    body {
-        background-color: #0000FF;
-    }
+body {
+    background-color: var(--bg-color);
 }
-
-@media (max-aspect-ratio: 1/2) {
-    body {
-        background-color: #00FF00;
-    }
+h1 {
+    color: var(--font-color, #0000FF);
+}
+.container {
+    background-color: var(--bg-second);
+    color: var(--font-color);
 }
