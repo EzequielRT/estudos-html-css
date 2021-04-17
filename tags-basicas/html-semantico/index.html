@@ -7,19 +7,60 @@
     <title>Página de Teste</title>
     <link rel="stylesheet" href="style.css"/>
 <body>
-    <!-- Separa os assuntos da página -->
-    <section>
-
-    </section>
-    <!-- Seta como conteúdo principal para o SEO -->
-    <article>
-
-    </article>
-    <!-- Seta como um conteúdo secundário para o SEO -->
-    <aside>
-
-    </aside>
-    <!-- Seta como uma data para o SEO -->
-    <p>O meu dia preferido é o <time datetime="2000-11-11">dia do meu aniversário</time></p>
+    Tipo para Pesquisa <br>
+    <input type="search" name="search" />
+    <br><br>
+    Tipo para E-mail
+    <form action="POST">
+        <input type="email" name="email" required />
+        <input type="submit" value="Enviar" />
+    </form>
+    <br>
+    Tipo para URL
+    <form action="POST">
+        <input type="url" name="url" required />
+        <input type="submit" value="Enviar" />
+    </form>
+    <br>
+    Tipo para Telefone
+    <form action="POST">
+        <input type="tel" name="tel" required />
+        <input type="submit" value="Enviar" />
+    </form>
+    <br>
+    Tipo para Numero
+    <form action="POST">
+        <input type="number" name="number" required />
+        <input type="submit" value="Enviar" />
+    </form>
+    <br>
+    Tipo Range
+    <form action="POST">
+        <input type="range" min="1" max="100" required />
+    </form>
+    <br>
+    Tipo para Data
+    <form action="POST">
+        <input type="date" required />
+        <input type="submit" value="Enviar" />
+    </form>
+    <br>
+    Tipo para Tempo
+    <form action="POST">
+        <input type="time" required />
+        <input type="submit" value="Enviar" />
+    </form>
+    <br>
+    Tipo para Data e Tempo
+    <form action="POST">
+        <input type="datetime-local" required />
+        <input type="submit" value="Enviar" />
+    </form>
+    <br>
+    Tipo para Cor
+    <form action="POST">
+        <input type="color" required />
+        <input type="submit" value="Enviar" />
+    </form>
 </body>
 </html>
