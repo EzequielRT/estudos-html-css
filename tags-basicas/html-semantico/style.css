@@ -1,19 +1,12 @@
 body {
     margin: 0;
 }
-#teste {
-    background-color: green;
-    margin-left: 100px;
-    margin-top: 100px;
-    width: 200px;
+.exemplo {
+    width: 500px;
     height: 200px;
-    border-radius: 10px;
-    border-top-right-radius: 100px;
-}
-
-input {
-    margin-left: 100px;
-    margin-top: 100px;
-    border-radius: 5px;
-    border: 1px solid #000;
+    background: blue;
+    background: linear-gradient(45deg, white, blue);
+    background: -moz-linear-gradient(white, blue);
+    background: -o-linear-gradient(white, blue);
+    background: -webkit-gradient(white, blue);
 }
