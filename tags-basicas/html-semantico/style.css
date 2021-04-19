@@ -1,10 +1,7 @@
 body {
     margin: 0px;
 }
-.exemplo {
-    width: 150px;
-    height: 200px;
-    border: 1px solid #000;
-    word-wrap: break-word;
+q {
+    color: #555;
+    font-style: italic;
 }
-
