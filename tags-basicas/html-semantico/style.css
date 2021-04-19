@@ -3,20 +3,8 @@ body {
 }
 .exemplo {
     width: 150px;
-    height: 150px;
-    background-color: green;
-    margin: auto;
-    margin-top: 100px;
-    transition: all 0.5s linear;
-}
-.exemplo:hover {
-    background-color: red;
-}
-a {
-    color: #000;
-    transition: all 0.5s linear;
-}
-a:hover {
-    color: #FF0000;
+    height: 200px;
+    border: 1px solid #000;
+    word-wrap: break-word;
 }
 
