@@ -22,6 +22,7 @@ header {
 .menu {
     display: flex;
     align-items: center;
+    font-size: 13px;
 }
 nav ul,
 nav li {
@@ -134,10 +135,24 @@ nav a:hover {
     margin-top: 30px;
     margin-bottom: 20px;
     font-weight: bold;
+    font-size: 12px;
 }
 .widget_title_bar {
     width: 50px;
     height: 3px;
     background-color: #36A9E1;
     margin-top: 10px;
+}
+.widget_body_1,
+.widget_body_2,
+.widget_body_3 {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+.itens {
+    height: 150px;
+    width: 150px;
+    background-color: #36A9E1;
+    margin-top: 30px;
 }
