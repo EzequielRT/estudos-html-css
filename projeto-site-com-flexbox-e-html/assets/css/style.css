@@ -1,5 +1,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: content-box;
 }
 body {
     margin: 0px;
@@ -110,7 +111,7 @@ nav a:hover {
 .banner_options a {
     display: inline-block;
     border: 1px solid #FFF;
-    padding: 8px;
+    padding: 9px;
     color: #FFF;
     text-decoration: none;
 }
@@ -118,8 +119,8 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #555555;
-    padding-bottom: 10px;
-    padding-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 #geral {
     display: flex;
@@ -143,9 +144,7 @@ nav a:hover {
     background-color: #36A9E1;
     margin-top: 10px;
 }
-.widget_body_1,
-.widget_body_2,
-.widget_body_3 {
+.widget_body {
     display: flex;
     justify-content: space-between; 
     flex-wrap: wrap;
@@ -154,5 +153,5 @@ nav a:hover {
     height: 150px;
     width: 150px;
     background-color: #36A9E1;
-    margin-top: 30px;
+    margin-bottom: 30px;
 }
