@@ -250,6 +250,7 @@ nav a:hover {
     display: -webkit-flex;
     align-items: center;
     margin-left: 10px;
+    line-height: 40px;
 }
 #contatos_text a,
 #email_text a {
@@ -316,7 +317,70 @@ article .news_title {
 }
 article .news_resume {
     color: #5C5C5C;
-    line-height: 20px;
+    line-height: 0px;
     font-size:14px;
     margin-bottom: 30px;
+    line-height: 20px;
+}
+footer {
+    background-color: #1E1E1E;
+    display: flex;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: center;
+}
+.footer_menu {
+    display: flex;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: center;
+}
+.footer_menu a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #FFF;
+}
+.fm_1, .fm_2, .fm_3 {
+    flex: 1;
+    color: #FFF;
+}
+.fm_1 {
+    background-color: #39AAE1;
+}
+.fm_2 {
+    background-color: #0079C7;
+}
+.fm_3 {
+    background-color: #2B4C99;
+}
+.footer_area  {
+    display: flex;
+}
+.footer_area_item {
+    flex: 1;
+    color: #FFF;
+}
+.flex-column {
+    flex-direction: column;
+}
+.footer_copy {
+    border-top: 1px solid #2C2C2C;
+    color: #5C5C5C;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.text_footer_menu h3 {
+    font-weight: normal;
+    font-size: 25px;
+    margin: 10px 0px;
+}
+.text_footer_menu p {
+    font-size: 15px;
 }
