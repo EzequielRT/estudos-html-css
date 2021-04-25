@@ -8,20 +8,36 @@ body {
 }
 header {
     display: flex;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     justify-content: center;
     height: 120px;
 }
 .container {
     display: flex;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     justify-content: space-between;
     width: 990px;
 }
 .logo {
     display:flex;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     align-items: center;
 }
 .menu {
     display: flex;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     align-items: center;
     font-size: 13px;
 }
@@ -33,6 +49,10 @@ nav li {
 }
 nav ul {
     display: flex;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
 }
 nav a {
     display: block;
@@ -48,6 +68,10 @@ nav a:hover {
 }
 #banner {
     display: flex;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     justify-content: center;
     background-image: url('../images/img1.jpg');
     background-position: center;
@@ -60,6 +84,10 @@ nav a:hover {
 .banner_headline {
     flex: 1;
     display: flex;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -83,6 +111,10 @@ nav a:hover {
 .banner_options {
     height: 210px;
     display: flex;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
 }
 .banner1,
 .banner2,
@@ -117,6 +149,10 @@ nav a:hover {
 }
 .banner_opening_hours {
     display: flex;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     justify-content: space-between;
     border-bottom: 1px solid #555555;
     padding-top: 15px;
@@ -124,6 +160,10 @@ nav a:hover {
 }
 #geral {
     display: flex;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     justify-content: center;
 }
 #geral section {
@@ -133,7 +173,7 @@ nav a:hover {
     flex: 1;
 }
 .widget_title {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 20px;
     font-weight: bold;
     font-size: 12px;
@@ -146,6 +186,10 @@ nav a:hover {
 }
 .widget_body {
     display: flex;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     justify-content: space-between; 
     flex-wrap: wrap;
 }
@@ -154,4 +198,70 @@ nav a:hover {
     width: 150px;
     background-color: #36A9E1;
     margin-bottom: 30px;
+}
+.widget_contacts {
+    display: block;
+    text-align: justify;
+}
+.widget_contacts p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.telefone,
+.email,
+.file {
+    display: flex;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.telefone {
+    padding-top: 10px;    
+    padding-bottom: 5px;
+    border-top: 1px solid #CCC;
+}
+.email {    
+    padding-top: 10px;    
+    padding-bottom: 10px;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+}
+.file {    
+    padding-top: 5px;    
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CCC;
+}
+.telefone img,
+.email img,
+.file img {
+    width: 25px;
+    height: 25px;
+}
+#contatos_text,
+#email_text,
+#file_text {
+    display: flex;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center;
+    margin-left: 10px;
+}
+#contatos_text a,
+#email_text a {
+    margin-left: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+#contatos_text a:hover,
+#email_text a:hover {
+    margin-left: 5px;
+    text-decoration: none;
+    font-weight: normal;
+    color: #000;
 }
