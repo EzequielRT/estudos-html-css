@@ -61,7 +61,6 @@ nav a {
     text-transform: uppercase;
     color: #727272;
 }
-nav .active a, 
 nav a:hover {
     background-color: #39AAE1;
     color: #FFF;
@@ -76,7 +75,7 @@ nav a:hover {
     background-image: url('../images/img1.jpg');
     background-position: center;
     background-size: cover;
-    min-height: 670px;
+    height: 670px;
 }
 .column {
     flex-direction: column;
@@ -218,6 +217,7 @@ nav a:hover {
     display: -webkit-flex;
     flex-wrap: wrap;
     margin-top: 5px;
+    align-items: center;
 }
 .telefone {
     padding-top: 10px;    
@@ -249,7 +249,6 @@ nav a:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
-    align-items: center;
     margin-left: 10px;
     line-height: 40px;
 }
@@ -425,7 +424,7 @@ footer {
     background-color: #39AAE1;
 }
 
-@media (max-width: 600px)
+@media (max-width: 359px)
 {
     .banner_headline {
         padding: 20px;
@@ -435,6 +434,101 @@ footer {
     }
     .banner_headline h2 {
         font-size: 17px;
+        text-shadow: 0px 1px 3px #555555;
+    }
+    .banner_options {
+        height: auto;
+        flex-direction: column;
+    }
+    .banner1, .banner2, .banner3 {
+        padding-left: 10px;
+    }
+    #geral {
+        justify-content: normal;
+    }
+    #banner {
+        background-size: cover;
+        min-height: 970px;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .footer_menu {
+        flex-direction: column;
+    }
+    .footer_area {
+        flex-direction: column;
+    }
+    .footer_copy {
+        text-align: center;
+    }
+    .footer_menu a {
+        padding: 10px
+    }
+    header .container {
+        flex-direction: row;
+    }
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #FFF;
+    }
+    header {
+        height: auto;
+    }
+    .logo {
+        padding-left: 20px;
+    }
+    .menu_mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    article {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .widget_title {
+        padding-left: 10px;
+    }
+    .itens {
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+    .widget_body {
+        justify-content: normal;
+    }
+    .widget_contacts p {
+        margin: 0px 10px;
+    }
+    .telefone,
+    .email,
+    .file {
+        margin: 0px 10px;
+    }
+    .file {
+        font-size: 14px;
+    }
+    .footer_area p {
+        padding: 0px 10px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 600px)
+{
+    .banner_headline {
+        padding: 20px;
+    }
+    .banner_headline h1 {
+        font-size: 55px;
+    }
+    .banner_headline h2 {
+        font-size: 17px;
+        text-shadow: 0px 1px 3px #555555;
     }
     .banner_options {
         height: auto;
@@ -467,6 +561,10 @@ footer {
     nav ul {
         flex-direction: column;
         display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #FFF;
     }
     header {
         height: auto;
@@ -478,5 +576,78 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1023px)
+{
+    .banner_headline {
+        padding: 20px;
+    }
+    .banner_headline h1 {
+        font-size: 55px;
+    }
+    .banner_headline h2 {
+        font-size: 17px;
+        text-shadow: 0px 1px 3px #555555;
+    }
+    .banner_options {
+        height: auto;
+        flex-direction: column;
+    }
+    #banner {
+        background-size: cover;
+        min-height: 970px;
+    }
+    .container {
+        flex-direction: column;
+    }
+    #geral section,
+    #geral aside,
+    .footer_area_item {
+        padding: 20px;
+    }
+    .footer_menu {
+        flex-direction: column;
+    }
+    .footer_area {
+        flex-direction: column;
+    }
+    .footer_copy {
+        padding-left: 20px;
+    }
+    header .container {
+        flex-direction: row;
+    }
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #FFF;
+    }
+    header {
+        height: auto;
+    }
+    .logo {
+        padding-left: 20px;
+    }
+    .menu_mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .itens {
+        margin-right: 30px;
+    }
+    .widget_body {
+        justify-content: normal;
+    }
+    .widget_body p {
+        margin-right: 20px;
+    }
+    .widget_address {
+        justify-content: normal;
     }
 }
