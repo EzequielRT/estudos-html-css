@@ -2,7 +2,18 @@
     box-sizing: border-box;
     margin: 0px;
 }
+a {
+    display: block;
+}
 
-[required] {
-    background-color: #FF00FF;
+a[href*="pop-arte"] {
+    background-color: #FF0000;
+}
+
+a[href^="http:"] {
+    background-color: #00FF00;
+}
+
+a[href$=".html"] {
+    background-color: #0000FF;
 }
