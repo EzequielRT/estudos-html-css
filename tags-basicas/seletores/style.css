@@ -1,10 +1,16 @@
 * {
     box-sizing: border-box;
 }
-p::first-line {
-    background-color: yellow;
+div {
+    background-color: #0000FF;
+    width: 100px;
+    height: 100px;
 }
-p::first-letter {
-    font-size: 30px;
-    font-weight: bold;
+div:first-child {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+div:last-child {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
