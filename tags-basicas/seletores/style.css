@@ -1,8 +1,14 @@
-table {
-    border: 1px solid blue;
+body {
+    text-align: center;
 }
-
-/* Seleciona as linhas pares */
-tr:nth-last-child(even) {
-    background-color: pink;
+div {
+    background-color: #00FF00;
+    padding: 20px;
+}
+div::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
 }
