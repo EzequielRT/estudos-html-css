@@ -1,3 +1,8 @@
-body :not(p) {
-    background-color: #FF0000;
+table {
+    border: 1px solid blue;
+}
+
+/* Seleciona as linhas pares */
+tr:nth-last-child(even) {
+    background-color: pink;
 }
