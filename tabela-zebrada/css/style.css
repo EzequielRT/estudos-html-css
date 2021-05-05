@@ -3,7 +3,7 @@ th {
     color: black;
 }
 
-table tr:nth-child(even),
-tfoot {
+table>tbody>tr:nth-last-child(even),
+table>tfoot>tr:nth-child(odd) {
     background: rgb(82, 134, 231);
 }
