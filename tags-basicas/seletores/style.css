@@ -1,7 +1,8 @@
 div {
-    background-color: #FF0000;
     width: 200px;
     height: 200px;
-    margin: auto;
-    transform: skewX(20deg);
+    background-color: #F00;
+    border: 10px solid #0F0;
+    padding: 10px;
+    box-sizing: border-box;
 }
