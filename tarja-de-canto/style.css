@@ -1,0 +1,24 @@
+.body {
+    margin: 0px;
+}
+
+.tarja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform:rotateZ(-40deg) translate(-110px,-40px);
+    width: 420px;
+    height: 70px;
+    left: -20px;
+    top: 30px;
+    background-color: #3e7cc6;
+    box-shadow: 2px 5px 7px #CCC;
+}
+
+.tarja a {
+    text-decoration: none;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-shadow: 5px 5px 5px #2f66aa;
+}
