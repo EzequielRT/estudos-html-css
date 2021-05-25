@@ -1,12 +1,8 @@
 .container {
-    height: 800px;
     background-color: #CCC;
     display: grid;
-    grid-template-columns: repeat(3, 200px);
-    grid-auto-rows: 100px;
-    gap: 10px 30px;
-    justify-content: center;
-    align-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
 }
 
 .item {
@@ -15,4 +11,23 @@
     padding: 20px;
     color: #FFF;
     font-size: 20px;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.item3 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+.item8 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 8;
 }
