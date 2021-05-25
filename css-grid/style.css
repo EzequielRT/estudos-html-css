@@ -3,8 +3,9 @@
     display: grid;
     gap: 10px;
     grid-template-areas: 
-        "item1 item1 item2"
-        "item3 item4 item2"
+        "header header header header"
+        "menu content content content"
+        "footer footer footer footer "
     ;
 }
 
@@ -16,18 +17,18 @@
     font-size: 20px;
 }
 
-.item1 {
-    grid-area: item1;
+header {
+    grid-area: header;
 }
 
-.item2 {
-    grid-area: item2;
+nav {
+    grid-area: menu;
 }
 
-.item3 {
-    grid-area: item3;
+section {
+    grid-area: content;
 }
 
-.item4 {
-    grid-area: item4;
+footer {
+    grid-area: footer;
 }
