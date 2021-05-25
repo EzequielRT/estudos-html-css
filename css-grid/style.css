@@ -3,9 +3,10 @@
     display: grid;
     gap: 10px;
     grid-template-areas: 
-        "header header header header"
-        "menu content content content"
-        "footer footer footer footer "
+        "header header header header header"
+        "menu content content content content"
+        "anuncio content content content content"
+        "footer footer footer footer footer"
     ;
 }
 
@@ -31,4 +32,19 @@ section {
 
 footer {
     grid-area: footer;
+}
+
+.anuncio {
+    grid-area: anuncio;
+}
+
+@media (max-width: 750px) {
+    .container {
+        grid-template-areas: 
+        "header header header menu"
+        "content content content content"
+        "anuncio anuncio anuncio anuncio"
+        "footer footer footer footer"
+    ;
+    }
 }
